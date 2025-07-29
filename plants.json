@@ -1,0 +1,156 @@
+{
+  "blue_jazz": {
+    "season": ["spring"],
+    "regrow": 0,
+    "grow": 7,
+    "buy": {
+      "pierre": 30,
+      "joja": 37
+    },
+    "price": 50,
+    "harvest_qty": 1
+  },
+  "carrot": {
+    "season": ["spring"],
+    "regrow": 0,
+    "grow": 3,
+    "price": 35,
+    "harvest_qty": 1
+  },
+  "cauliflower": {
+    "season": ["spring"],
+    "regrow": 0,
+    "grow": 12,
+    "buy": {
+      "pierre": 80,
+      "joja": 100
+    },
+    "price": 175,
+    "harvest_qty": 1
+  },
+  "coffee": {
+    "season": ["spring"],
+    "regrow": 2,
+    "grow": 12,
+    "buy": {
+      "traveling_cart": 2500
+    },
+    "price": 12,
+    "harvest_qty": 4
+  },
+  "garlic": {
+    "season": ["spring"],
+    "regrow": 0,
+    "grow": 4,
+    "buy": {
+      "pierre": 40
+    },
+    "price": 60,
+    "harvest_qty": 1
+  },
+  "green_bean": {
+    "season": ["spring"],
+    "regrow": 3,
+    "grow": 10,
+    "buy": {
+      "pierre": 60,
+      "joja": 75
+    },
+    "price": 40,
+    "harvest_qty": 1
+  },
+  "kale": {
+    "season": ["spring"],
+    "regrow": 0,
+    "grow": 6,
+    "buy": {
+      "pierre": 70,
+      "joja": 87
+    },
+    "price": 110,
+    "harvest_qty": 1
+  },
+  "parsnip": {
+    "season": ["spring"],
+    "regrow": 0,
+    "grow": 4,
+    "buy": {
+      "pierre": 20,
+      "joja": 25
+    },
+    "price": 35,
+    "harvest_qty": 1
+  },
+  "potato": {
+    "season": ["spring"],
+    "regrow": 0,
+    "grow": 6,
+    "buy": {
+      "pierre": 50,
+      "joja": 62
+    },
+    "price": 80,
+    "harvest_qty": 1
+  },
+  "rhubarb": {
+    "season": ["spring"],
+    "regrow": 0,
+    "grow": 13,
+    "buy": {
+      "oasis": 100
+    },
+    "price": 220,
+    "harvest_qty": 1
+  },
+  "strawberry": {
+    "season": ["spring"],
+    "regrow": 4,
+    "grow": 8,
+    "buy": {
+      "egg_festival": 100
+    },
+    "price": 120,
+    "harvest_qty": 1
+  },
+  "tulip": {
+    "season": ["spring"],
+    "regrow": 0,
+    "grow": 6,
+    "buy": {
+      "pierre": 20,
+      "joja": 25
+    },
+    "price": 30,
+    "harvest_qty": 1
+  },
+  "rice_irrigated": {
+    "season": ["spring"],
+    "regrow": 0,
+    "grow": 6,
+    "buy": {
+      "pierre": 40
+    },
+    "price": 30,
+    "harvest_qty": 1
+  },
+  "rice_unirrigated": {
+    "season": ["spring"],
+    "regrow": 0,
+    "grow": 8,
+    "buy": {
+      "pierre": 40
+    },
+    "price": 30,
+    "harvest_qty": 1
+  },
+  "blueberry": {
+    "season": ["summer"],
+    "regrow": 4,
+    "grow": 13,
+    "buy": {
+      "pierre": 80
+    },
+    "price": 50,
+    "harvest_qty": 3
+  }
+}
