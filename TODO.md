@@ -8,8 +8,9 @@ Este documento organiza todas as tarefas necessárias para finalizar o projeto d
 
 - [ ] Criar projeto Vue (`npm create vue@latest`)
 - [ ] Configurar estrutura de pastas (`components/`, `data/`, etc.)
-- [ ] Criar arquivo `plants.json` com dados das plantas
-- [ ] Adicionar campo `harvest_quantity` em cada planta (ex: café = 4)
+- [x] Criar arquivo `plants.json` com dados das plantas
+- [ ] Achar um jeito de fazer o calculo das tea leaves ou decidir ignorar (n gera mt lucro mesmo)
+- [x] Adicionar campo `harvest_quantity` em cada planta (ex: café = 4)
 
 ---
 
@@ -17,7 +18,8 @@ Este documento organiza todas as tarefas necessárias para finalizar o projeto d
 
 - [ ] Criar componente de formulário com:
   - [ ] Select da estação (Primavera, Verão, Outono)
-  - [ ] Input numérico para o dia atual (1–28)
+  - [ ] Dia atual (1–28)
+  - [ ] Ano
 - [ ] Criar componente de resultados:
   - [ ] Lista com nome da planta, número de colheitas, lucro total e lucro por dia
 

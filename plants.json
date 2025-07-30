@@ -152,5 +152,329 @@
     },
     "price": 50,
     "harvest_qty": 3
+  },
+  "corn": {
+    "season": ["summer", "fall"],
+    "regrow": 4,
+    "grow": 14,
+    "buy": {
+      "pierre": 150,
+      "joja": 187
+    },
+    "price": 50,
+    "harvest_qty": 1
+  },
+  "hops": {
+    "season": ["summer"],
+    "regrow": 1,
+    "grow": 11,
+    "buy": {
+      "pierre": 60,
+      "joja": 75
+    },
+    "price": 25,
+    "harvest_qty": 1
+  },
+  "pepper": {
+    "season": ["summer"],
+    "regrow": 3,
+    "grow": 5,
+    "buy": {
+      "pierre": 40,
+      "joja": 50
+    },
+    "price": 40,
+    "harvest_qty": 1
+  },
+  "melon": {
+    "season": ["summer"],
+    "regrow": 0,
+    "grow": 12,
+    "buy": {
+      "pierre": 80,
+      "joja": 100
+    },
+    "price": 250,
+    "harvest_qty": 1
+  },
+  "poppy": {
+    "season": ["summer"],
+    "regrow": 0,
+    "grow": 7,
+    "buy": {
+      "pierre": 100,
+      "joja": 125
+    },
+    "price": 140,
+    "harvest_qty": 1
+  },
+  "radish": {
+    "season": ["summer"],
+    "regrow": 0,
+    "grow": 6,
+    "buy": {
+      "pierre": 40,
+      "joja": 50
+    },
+    "price": 90,
+    "harvest_qty": 1
+  },
+  "cabbage": {
+    "season": ["summer"],
+    "regrow": 0,
+    "grow": 9,
+    "buy": {
+      "pierre": 100
+    },
+    "price": 260,
+    "harvest_qty": 1
+  },
+  "starfruit": {
+    "season": ["summer"],
+    "regrow": 0,
+    "grow": 13,
+    "buy": {
+      "oasis": 400
+    },
+    "price": 750,
+    "harvest_qty": 1
+  },
+  "spangle": {
+    "season": ["summer"],
+    "regrow": 0,
+    "grow": 8,
+    "buy": {
+      "pierre": 50,
+      "joja": 62
+    },
+    "price": 90,
+    "harvest_qty": 1
+  },
+  "squash": {
+    "season": ["summer"],
+    "grow": 6,
+    "regrow": 3,
+    "buy": {},
+    "price": 45,
+    "harvest_qty": 1
+  },
+  "sunflower": {
+    "season": ["summer", "fall"],
+    "regrow": 0,
+    "grow": 8,
+    "buy": {
+      "pierre": 200,
+      "joja": 125
+    },
+    "price": 80,
+    "harvest_qty": 1
+  },
+  "tomato": {
+    "season": ["summer"],
+    "regrow": 4,
+    "grow": 11,
+    "buy": {
+      "pierre": 50,
+      "joja": 62
+    },
+    "price": 60,
+    "harvest_qty": 1
+  },
+  "wheat": {
+    "season": ["summer", "fall"],
+    "regrow": 0,
+    "grow": 4,
+    "buy": {
+      "pierre": 10,
+      "joja": 12
+    },
+    "price": 25,
+    "harvest_qty": 1
+  },
+  "amaranth": {
+    "season": ["fall"],
+    "regrow": 0,
+    "grow": 7,
+    "buy": {
+      "pierre": 70,
+      "joja": 87
+    },
+    "price": 150,
+    "harvest_qty": 1
+  },
+  "artichoke": {
+    "season": ["fall"],
+    "regrow": 0,
+    "grow": 8,
+    "buy": {
+      "pierre": 30
+    },
+    "price": 160,
+    "harvest_qty": 1
+  },
+  "beet": {
+    "season": ["fall"],
+    "regrow": 0,
+    "grow": 6,
+    "buy": {
+      "oasis": 20
+    },
+    "price": 160,
+    "harvest_qty": 1
+  },
+  "bokchoy": {
+    "season": ["fall"],
+    "regrow": 0,
+    "grow": 4,
+    "buy": {
+      "pierre": 50,
+      "joja": 62
+    },
+    "price": 80,
+    "harvest_qty": 1
+  },
+  "broccoli": {
+    "season": ["fall"],
+    "regrow": 4,
+    "grow": 8,
+    "buy": {},
+    "price": 70,
+    "harvest_qty": 1
+  },
+  "cranberries": {
+    "season": ["fall"],
+    "regrow": 5,
+    "grow": 7,
+    "buy": {
+      "pierre": 240,
+      "joja": 300
+    },
+    "price": 75,
+    "harvest_qty": 2
+  },
+  "eggplant": {
+    "season": ["fall"],
+    "regrow": 5,
+    "grow": 5,
+    "buy": {
+      "pierre": 20,
+      "joja": 25
+    },
+    "price": 60,
+    "harvest_qty": 1
+  },
+  "fairyrose": {
+    "season": ["fall"],
+    "regrow": 0,
+    "grow": 12,
+    "buy": {
+      "pierre": 200,
+      "joja": 250
+    },
+    "price": 290,
+    "harvest_qty": 2
+  },
+  "grape": {
+    "season": ["fall"],
+    "regrow": 3,
+    "grow": 10,
+    "buy": {
+      "pierre": 60,
+      "joja": 75
+    },
+    "price": 80,
+    "harvest_qty": 1
+  },
+  "pumpkin": {
+    "season": ["fall"],
+    "regrow": 0,
+    "grow": 13,
+    "buy": {
+      "pierre": 100,
+      "joja": 125
+    },
+    "price": 320,
+    "harvest_qty": 1
+  },
+  "yamin": {
+    "season": ["fall"],
+    "regrow": 0,
+    "grow": 10,
+    "buy": {
+      "pierre": 60,
+      "joja": 75
+    },
+    "price": 160,
+    "harvest_qty": 1
+  },
+  "powdermelon": {
+    "season": ["winter"],
+    "regrow": 0,
+    "grow": 7,
+    "buy": {},
+    "price": 60,
+    "harvest_qty": 1
+  },
+  "ancientfruit": {
+    "season": ["spring", "summer", "fall"],
+    "regrow": 7,
+    "grow": 28,
+    "buy": {},
+    "price": 550,
+    "harvest_qty": 1
+  },
+  "cactus": {
+    "season": [],
+    "regrow": 3,
+    "grow": 12,
+    "buy": {
+      "oasis": 150
+    },
+    "price": 75,
+    "harvest_qty": 1
+  },
+  "fiber": {
+    "season": ["winter", "spring", "summer", "fall"],
+    "regrow": 3,
+    "grow": 12,
+    "buy": {
+      "oasis": 150
+    },
+    "price": 75,
+    "harvest_qty": 1
+  },
+  "pineapple": {
+    "season": ["summer"],
+    "regrow": 7,
+    "grow": 14,
+    "buy": {},
+    "price": 300,
+    "harvest_qty": 1
+  },
+  "taroroot_unirrigated": {
+    "season": ["summer"],
+    "regrow": 0,
+    "grow": 10,
+    "buy": {},
+    "price": 100,
+    "harvest_qty": 1
+  },
+  "taroroot_irrigated": {
+    "season": ["summer"],
+    "regrow": 0,
+    "grow": 7,
+    "buy": {},
+    "price": 100,
+    "harvest_qty": 1
+  },
+  "sweetgem": {
+    "season": ["fall"],
+    "regrow": 0,
+    "grow": 24,
+    "buy": {
+      "traveling_cart": 1000
+    },
+    "price": 3000,
+    "harvest_qty": 1
   }
 }
