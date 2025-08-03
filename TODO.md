@@ -6,10 +6,10 @@ Este documento organiza todas as tarefas necessárias para finalizar o projeto d
 
 ## 📦 Fase 1: Preparação do Projeto
 
-- [ ] Criar projeto Vue (`npm create vue@latest`)
-- [ ] Configurar estrutura de pastas (`components/`, `data/`, etc.)
+- [x] Criar projeto Vue (`npm create vue@latest`)
+- [x] Configurar estrutura de pastas (`components/`, `data/`, etc.)
 - [x] Criar arquivo `plants.json` com dados das plantas
-- [ ] Achar um jeito de fazer o calculo das tea leaves ou decidir ignorar (n gera mt lucro mesmo)
+- [x] Achar um jeito de fazer o calculo das tea leaves ou decidir ignorar (ignorar)
 - [x] Adicionar campo `harvest_quantity` em cada planta (ex: café = 4)
 
 ---
