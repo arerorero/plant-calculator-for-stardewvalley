@@ -1,7 +1,19 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card'
+import AppCard from './components/AppCard.vue'
+</script>
 
 <template>
-  <h1 class="text-3xl font-bold underline bg-blue-50">Hello world!</h1>
+  <div class="m-10">
+    <AppCard />
+  </div>
 </template>
 
 <style scoped></style>
