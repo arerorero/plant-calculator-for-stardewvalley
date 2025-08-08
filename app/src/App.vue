@@ -11,6 +11,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import sun from '@/assets/images/daytime/sun.png'
 import moon from '@/assets/images/daytime/moon.png'
 import { onMounted, ref } from 'vue'
+import ListOfPlants from './components/ListOfPlants.vue'
 const day_time = ref(sun)
 
 onMounted(() => {
@@ -45,6 +46,7 @@ const isFading = ref(false)
       <AvatarFallback></AvatarFallback>
     </Avatar>
   </nav>
+  <ListOfPlants />
   <div class="m-10">
     <Card>
       <CardHeader>

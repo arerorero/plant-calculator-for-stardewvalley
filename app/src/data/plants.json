@@ -396,7 +396,7 @@
     "price": 320,
     "harvest_qty": 1
   },
-  "yamin": {
+  "yam": {
     "season": ["fall"],
     "regrow": 0,
     "grow": 10,
