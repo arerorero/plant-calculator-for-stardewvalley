@@ -21,6 +21,7 @@ import ListOfPlants from './components/ListOfPlants.vue'
 // 4. assets
 import sun from '@/assets/images/daytime/sun.png'
 import moon from '@/assets/images/daytime/moon.png'
+import Calculator from './components/Calculator.vue'
 
 // 5. code
 const isFading = ref(false)
@@ -58,6 +59,7 @@ const switch_day_time = () => {
       </Avatar>
     </nav>
     <div class="m-10">
+      <Calculator />
       <Card>
         <CardHeader>
           <CardTitle>Card Title</CardTitle>

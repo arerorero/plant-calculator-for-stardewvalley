@@ -1,0 +1,37 @@
+{
+  "name": "Form",
+  "formId": 1,
+  "values": {
+    "start_date": { "season": "spring", "day": 1 },
+    "limit_date": { "season": "spring", "day": 1 },
+    "cash": 0,
+    "use_limit_date": "on"
+  },
+  "controlledValues": { "use_limit_date": "on" },
+  "errorBag": { "use_limit_date": ["Expected boolean, received string"] },
+  "errors": { "use_limit_date": "Expected boolean, received string" },
+  "schema": { "__type": "VVTypedSchema" },
+  "submitCount": 0,
+  "meta": {
+    "initialValues": {
+      "start_date": { "season": "spring", "day": 1 },
+      "limit_date": { "season": "spring", "day": 1 },
+      "cash": 0,
+      "use_limit_date": false
+    },
+    "touched": true,
+    "pending": false,
+    "valid": false,
+    "dirty": true
+  },
+  "isSubmitting": false,
+  "isValidating": false,
+  "fieldArrays": [],
+  "keepValuesOnUnmount": false,
+  "initialValues": {
+    "start_date": { "season": "spring", "day": 1 },
+    "limit_date": { "season": "spring", "day": 1 },
+    "cash": 0,
+    "use_limit_date": false
+  }
+}
