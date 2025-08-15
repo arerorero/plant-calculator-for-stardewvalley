@@ -1,5 +1,6 @@
 {
   "blue_jazz": {
+    "name": "Blue Jazz",
     "season": ["spring"],
     "regrow": 0,
     "grow": 7,
@@ -11,13 +12,16 @@
     "harvest_qty": 1
   },
   "carrot": {
+    "name": "Carrot",
     "season": ["spring"],
     "regrow": 0,
     "grow": 3,
+    "buy": {},
     "price": 35,
     "harvest_qty": 1
   },
   "cauliflower": {
+    "name": "Cauliflower",
     "season": ["spring"],
     "regrow": 0,
     "grow": 12,
@@ -29,6 +33,7 @@
     "harvest_qty": 1
   },
   "coffee": {
+    "name": "Coffee",
     "season": ["spring"],
     "regrow": 2,
     "grow": 12,
@@ -39,6 +44,7 @@
     "harvest_qty": 4
   },
   "garlic": {
+    "name": "Garlic",
     "season": ["spring"],
     "regrow": 0,
     "grow": 4,
@@ -49,6 +55,7 @@
     "harvest_qty": 1
   },
   "green_bean": {
+    "name": "Green Bean",
     "season": ["spring"],
     "regrow": 3,
     "grow": 10,
@@ -60,6 +67,7 @@
     "harvest_qty": 1
   },
   "kale": {
+    "name": "Kale",
     "season": ["spring"],
     "regrow": 0,
     "grow": 6,
@@ -71,6 +79,7 @@
     "harvest_qty": 1
   },
   "parsnip": {
+    "name": "Parsnip",
     "season": ["spring"],
     "regrow": 0,
     "grow": 4,
@@ -82,6 +91,7 @@
     "harvest_qty": 1
   },
   "potato": {
+    "name": "Potato",
     "season": ["spring"],
     "regrow": 0,
     "grow": 6,
@@ -93,6 +103,7 @@
     "harvest_qty": 1
   },
   "rhubarb": {
+    "name": "Rhubarb",
     "season": ["spring"],
     "regrow": 0,
     "grow": 13,
@@ -103,6 +114,7 @@
     "harvest_qty": 1
   },
   "strawberry": {
+    "name": "Strawberry",
     "season": ["spring"],
     "regrow": 4,
     "grow": 8,
@@ -113,6 +125,7 @@
     "harvest_qty": 1
   },
   "tulip": {
+    "name": "Tulip",
     "season": ["spring"],
     "regrow": 0,
     "grow": 6,
@@ -124,6 +137,7 @@
     "harvest_qty": 1
   },
   "rice_irrigated": {
+    "name": "Rice (Irrigated)",
     "season": ["spring"],
     "regrow": 0,
     "grow": 6,
@@ -134,6 +148,7 @@
     "harvest_qty": 1
   },
   "rice_unirrigated": {
+    "name": "Rice (Unirrigated)",
     "season": ["spring"],
     "regrow": 0,
     "grow": 8,
@@ -144,6 +159,7 @@
     "harvest_qty": 1
   },
   "blueberry": {
+    "name": "blueberry",
     "season": ["summer"],
     "regrow": 4,
     "grow": 13,
@@ -154,6 +170,7 @@
     "harvest_qty": 3
   },
   "corn": {
+    "name": "Corn",
     "season": ["summer", "fall"],
     "regrow": 4,
     "grow": 14,
@@ -165,6 +182,7 @@
     "harvest_qty": 1
   },
   "hops": {
+    "name": "Hops",
     "season": ["summer"],
     "regrow": 1,
     "grow": 11,
@@ -176,6 +194,7 @@
     "harvest_qty": 1
   },
   "pepper": {
+    "name": "Pepper",
     "season": ["summer"],
     "regrow": 3,
     "grow": 5,
@@ -187,6 +206,7 @@
     "harvest_qty": 1
   },
   "melon": {
+    "name": "Melon",
     "season": ["summer"],
     "regrow": 0,
     "grow": 12,
@@ -198,6 +218,7 @@
     "harvest_qty": 1
   },
   "poppy": {
+    "name": "Poppy",
     "season": ["summer"],
     "regrow": 0,
     "grow": 7,
@@ -209,6 +230,7 @@
     "harvest_qty": 1
   },
   "radish": {
+    "name": "Radish",
     "season": ["summer"],
     "regrow": 0,
     "grow": 6,
@@ -220,6 +242,7 @@
     "harvest_qty": 1
   },
   "cabbage": {
+    "name": "cabbage",
     "season": ["summer"],
     "regrow": 0,
     "grow": 9,
@@ -230,6 +253,7 @@
     "harvest_qty": 1
   },
   "starfruit": {
+    "name": "Starfruit",
     "season": ["summer"],
     "regrow": 0,
     "grow": 13,
@@ -240,6 +264,7 @@
     "harvest_qty": 1
   },
   "spangle": {
+    "name": "Spangle",
     "season": ["summer"],
     "regrow": 0,
     "grow": 8,
@@ -251,6 +276,7 @@
     "harvest_qty": 1
   },
   "squash": {
+    "name": "Squash",
     "season": ["summer"],
     "grow": 6,
     "regrow": 3,
@@ -259,6 +285,7 @@
     "harvest_qty": 1
   },
   "sunflower": {
+    "name": "Sunflower",
     "season": ["summer", "fall"],
     "regrow": 0,
     "grow": 8,
@@ -270,6 +297,7 @@
     "harvest_qty": 1
   },
   "tomato": {
+    "name": "Tomato",
     "season": ["summer"],
     "regrow": 4,
     "grow": 11,
@@ -281,6 +309,7 @@
     "harvest_qty": 1
   },
   "wheat": {
+    "name": "Wheat",
     "season": ["summer", "fall"],
     "regrow": 0,
     "grow": 4,
@@ -292,6 +321,7 @@
     "harvest_qty": 1
   },
   "amaranth": {
+    "name": "amaranth",
     "season": ["fall"],
     "regrow": 0,
     "grow": 7,
@@ -303,6 +333,7 @@
     "harvest_qty": 1
   },
   "artichoke": {
+    "name": "artichoke",
     "season": ["fall"],
     "regrow": 0,
     "grow": 8,
@@ -313,6 +344,7 @@
     "harvest_qty": 1
   },
   "beet": {
+    "name": "beet",
     "season": ["fall"],
     "regrow": 0,
     "grow": 6,
@@ -323,6 +355,7 @@
     "harvest_qty": 1
   },
   "bokchoy": {
+    "name": "bokchoy",
     "season": ["fall"],
     "regrow": 0,
     "grow": 4,
@@ -334,6 +367,7 @@
     "harvest_qty": 1
   },
   "broccoli": {
+    "name": "broccoli",
     "season": ["fall"],
     "regrow": 4,
     "grow": 8,
@@ -342,6 +376,7 @@
     "harvest_qty": 1
   },
   "cranberries": {
+    "name": "Cranberries",
     "season": ["fall"],
     "regrow": 5,
     "grow": 7,
@@ -353,6 +388,7 @@
     "harvest_qty": 2
   },
   "eggplant": {
+    "name": "Eggplant",
     "season": ["fall"],
     "regrow": 5,
     "grow": 5,
@@ -364,6 +400,7 @@
     "harvest_qty": 1
   },
   "fairyrose": {
+    "name": "Fairy Rose",
     "season": ["fall"],
     "regrow": 0,
     "grow": 12,
@@ -375,6 +412,7 @@
     "harvest_qty": 2
   },
   "grape": {
+    "name": "Grape",
     "season": ["fall"],
     "regrow": 3,
     "grow": 10,
@@ -386,6 +424,7 @@
     "harvest_qty": 1
   },
   "pumpkin": {
+    "name": "Pumpkin",
     "season": ["fall"],
     "regrow": 0,
     "grow": 13,
@@ -397,6 +436,7 @@
     "harvest_qty": 1
   },
   "yam": {
+    "name": "Yam",
     "season": ["fall"],
     "regrow": 0,
     "grow": 10,
@@ -408,6 +448,7 @@
     "harvest_qty": 1
   },
   "powdermelon": {
+    "name": "Powdermelon",
     "season": ["winter"],
     "regrow": 0,
     "grow": 7,
@@ -416,6 +457,7 @@
     "harvest_qty": 1
   },
   "ancientfruit": {
+    "name": "Ancient Fruit",
     "season": ["spring", "summer", "fall"],
     "regrow": 7,
     "grow": 28,
@@ -424,6 +466,7 @@
     "harvest_qty": 1
   },
   "cactus": {
+    "name": "cactus",
     "season": [],
     "regrow": 3,
     "grow": 12,
@@ -434,16 +477,18 @@
     "harvest_qty": 1
   },
   "fiber": {
+    "name": "Fiber",
     "season": ["winter", "spring", "summer", "fall"],
     "regrow": 3,
     "grow": 12,
     "buy": {
       "oasis": 150
     },
-    "price": 75,
-    "harvest_qty": 1
+    "price": 1,
+    "harvest_qty": 4
   },
   "pineapple": {
+    "name": "Pineapple",
     "season": ["summer"],
     "regrow": 7,
     "grow": 14,
@@ -452,6 +497,7 @@
     "harvest_qty": 1
   },
   "taroroot_unirrigated": {
+    "name": "Taroroot (Unirrigated)",
     "season": ["summer"],
     "regrow": 0,
     "grow": 10,
@@ -460,6 +506,7 @@
     "harvest_qty": 1
   },
   "taroroot_irrigated": {
+    "name": "Taroroot (Irrigated)",
     "season": ["summer"],
     "regrow": 0,
     "grow": 7,
@@ -468,6 +515,7 @@
     "harvest_qty": 1
   },
   "sweetgem": {
+    "name": "Sweet Gem Berry",
     "season": ["fall"],
     "regrow": 0,
     "grow": 24,
