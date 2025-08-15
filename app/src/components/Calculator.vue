@@ -12,6 +12,7 @@
           <FormMessage>teste</FormMessage>
         </FormItem>
       </FormField>
+      <Button type="submit" class="cursor-pointer"> Submit </Button>
     </Form>
   </div>
 </template>
@@ -27,17 +28,19 @@ import {
   FormLabel,
   FormMessage,
 } from '@/components/ui/form'
-import { Input } from '@/components/ui/input'
+import { Button } from '@/components/ui/button'
+import Checkbox from '@/components/ui/checkbox/Checkbox.vue'
 
-import { calculatorInput } from '@/assets/interfaces/calculatorInput'
-import Checkbox from './ui/checkbox/Checkbox.vue'
+import { calculateHigherIncome } from '@/utils/calculator'
+import { calculatorInput, type CalculatorInputType } from '@/assets/interfaces/calculatorInput'
 
 const form = useForm({
   validationSchema: calculatorInput,
 })
 
-const onSubmit = form.handleSubmit((values) => {
-  console.log('Form submitted!', values)
+const onSubmit = form.handleSubmit((values: CalculatorInputType) => {
+  console.log(values)
+  calculateHigherIncome(values)
 })
 </script>
 
