@@ -39,7 +39,6 @@ const form = useForm({
 })
 
 const onSubmit = form.handleSubmit((values: CalculatorInputType) => {
-  console.log(values)
   calculateHigherIncome(values)
 })
 </script>

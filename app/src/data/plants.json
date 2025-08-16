@@ -34,7 +34,7 @@
   },
   "coffee": {
     "name": "Coffee",
-    "season": ["spring"],
+    "season": ["spring", "summer"],
     "regrow": 2,
     "grow": 12,
     "buy": {

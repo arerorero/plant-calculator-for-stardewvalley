@@ -6,12 +6,25 @@ import plantsData from '@/data/plants.json'
 const PlantsRecordSchema = z.record(PlantSchema)
 const plants = PlantsRecordSchema.parse(plantsData)
 
+type Season = 'spring' | 'summer' | 'fall' | 'winter'
+
+const ORDER: Season[] = ['spring', 'summer', 'fall', 'winter']
+
+function toAbsoluteDay(season: Season, day: number): number {
+  const seasonIndex = ORDER.indexOf(season)
+  return seasonIndex * 28 + day
+}
+
 export function plantIncome(
   plant: (typeof plants)[keyof typeof plants],
   input: CalculatorInputType,
 ) {
-  console.log(`Calculating income for ${plant.name}...`)
-  let available_time = plant.season.length * 28 - input.start_date.day
+  const startDay = toAbsoluteDay(input.start_date.season, input.start_date.day)
+  const possibleEnds = plant.season.map((s) => toAbsoluteDay(s, 28))
+  const validEnds = possibleEnds.filter((d) => d >= startDay)
+  const endDay = Math.max(...validEnds)
+
+  let available_time = endDay - startDay
   let harvests = 1
   if (available_time < plant.grow) return 0
   available_time -= plant.grow
@@ -30,6 +43,6 @@ export function calculateHigherIncome(input: CalculatorInputType) {
   })
   filteredPlants.forEach((plant) => {
     const income = plantIncome(plant, input)
-    console.log(`Income for ${plant.name}:`, income)
+    console.log(`Income for ${plant.name}: ${income.toFixed(2)}g/day`)
   })
 }
