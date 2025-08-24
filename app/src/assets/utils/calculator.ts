@@ -1,5 +1,5 @@
 import z from 'zod'
-import type { CalculatorInputType } from '../assets/interfaces/calculatorInput'
+import type { CalculatorInputType } from '@/assets/interfaces/calculatorInput'
 
 import { PlantSchema } from '@/assets/interfaces/plant'
 import plantsData from '@/data/plants.json'
